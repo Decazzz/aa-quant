@@ -1,0 +1,1 @@
+import{s as r}from"./big-b0GvT8zy.js";function u(t){return r({url:"/v1/supermarket/intents",method:"GET",params:t})}function s(t,e){return r({url:`/v1/supermarket/${t}/history`,method:"GET",params:e})}function a(t,e){return r({url:`/v1/supermarket/${t}/detail`,method:"GET",params:e})}export{u as a,a as b,s as g};
