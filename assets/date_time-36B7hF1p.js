@@ -1,1 +1,0 @@
-function o(e){const r=Math.floor(e/864e5);let i="";return r>=0&&(i+=`${r} days`),i.trim()}function f(e){return new Date(e).toLocaleString()}const n=(e,t=2)=>Number(e).toExponential(t);function s(e){return e>=1e6?`${(e/1e6).toFixed(2)}M`:e>=1e3?`${(e/1e3).toFixed(2)}K`:e>=1e9?(e/1e9).toFixed(2)+"B":e<1e-4?n(e.toString(),2):e.toFixed(4)}export{s as a,o as b,f};
